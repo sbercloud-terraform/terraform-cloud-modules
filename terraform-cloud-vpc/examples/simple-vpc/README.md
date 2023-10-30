@@ -22,11 +22,11 @@ quota limits). Run `terraform destroy` when you don't need these resources.
 | Name | Version |
 |------|---------|
 | Terraform | >= 1.3.0 |
-| Huaweicloud Provider | >= 1.40.0 |
+| Sbercloud Provider | >= 1.40.0 |
 
 ## Providers
 
-[terraform-provider-huaweicloud](https://github.com/huaweicloud/terraform-provider-huaweicloud)
+[terraform-provider-sbercloud](https://github.com/sbercloud-terraform/terraform-provider-sbercloud)
 
 ## Modules
 
@@ -38,9 +38,9 @@ quota limits). Run `terraform destroy` when you don't need these resources.
 
 | Name | Type |
 |------|------|
-| huaweicloud_vpc.this[0] | resource |
-| huaweicloud_vpc_subnet.this[0] | resource |
-| huaweicloud_vpc_subnet.this[1] | resource |
+| sbercloud_vpc.this[0] | resource |
+| sbercloud_vpc_subnet.this[0] | resource |
+| sbercloud_vpc_subnet.this[1] | resource |
 
 ## Inputs
 

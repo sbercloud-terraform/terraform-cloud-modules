@@ -22,11 +22,11 @@ quota limits). Run `terraform destroy` when you don't need these resources.
 | Name | Version |
 |------|---------|
 | Terraform | >= 1.3.0 |
-| Huaweicloud Provider | >= 1.40.0 |
+| Sbercloud Provider | >= 1.40.0 |
 
 ## Providers
 
-[terraform-provider-huaweicloud](https://github.com/huaweicloud/terraform-provider-huaweicloud)
+[terraform-provider-sbercloud](https://github.com/sbercloud-terraform/terraform-provider-sbercloud)
 
 ## Modules
 
@@ -38,14 +38,14 @@ quota limits). Run `terraform destroy` when you don't need these resources.
 
 | Name | Type |
 |------|------|
-| huaweicloud_networking_secgroup.this[0] | resource |
-| huaweicloud_networking_secgroup_rule.in_v4_self_group[0] | resource |
-| huaweicloud_networking_secgroup_rule.this[0] | resource |
-| huaweicloud_networking_secgroup_rule.this[1] | resource |
-| huaweicloud_networking_secgroup_rule.this[2] | resource |
-| huaweicloud_networking_secgroup_rule.this[3] | resource |
-| huaweicloud_vpc_address_group.this[0] | resource |
-| huaweicloud_networking_secgroup_rule.remote_address_group[0] | resource |
+| sbercloud_networking_secgroup.this[0] | resource |
+| sbercloud_networking_secgroup_rule.in_v4_self_group[0] | resource |
+| sbercloud_networking_secgroup_rule.this[0] | resource |
+| sbercloud_networking_secgroup_rule.this[1] | resource |
+| sbercloud_networking_secgroup_rule.this[2] | resource |
+| sbercloud_networking_secgroup_rule.this[3] | resource |
+| sbercloud_vpc_address_group.this[0] | resource |
+| sbercloud_networking_secgroup_rule.remote_address_group[0] | resource |
 
 ## Inputs
 
