@@ -1,4 +1,4 @@
-# The Terraform module of HUAWEI Cloud VPC service
+# The Terraform module of Cloud.ru VPC service
 
 What capabilities does the current Module provide:
 
@@ -11,7 +11,7 @@ What capabilities does the current Module provide:
 
 ```hcl
 module "vpc_service" {
-  source = "terraform-huaweicloud-modules/vpc-service"
+  source = "terraform-sbercloud-modules/vpc-service"
 
   vpc_name       = "module-single-vpc"
   vpc_cidr_block = "172.16.0.0/16"
@@ -29,7 +29,7 @@ module "vpc_service" {
 
 ```hcl
 module "vpc_service" {
-  source = "terraform-huaweicloud-modules/vpc-service"
+  source = "terraform-sbercloud-modules/vpc-service"
 
   query_vpc_names            = ["module-single-vpc"]
   query_subnet_names         = ["module-single-master-subnet", "module-single-standby-subnet"]
@@ -39,7 +39,7 @@ module "vpc_service" {
 
 ## Contributing
 
-Report issues/questions/feature requests in the [issues](https://github.com/terraform-huaweicloud-modules/terraform-huaweicloud-vpc/issues/new)
+Report issues/questions/feature requests in the [issues](https://github.com/sbercloud-terraform/terraform-cloud-modules/issues/new)
 section.
 
 Full contributing [guidelines are covered here](.github/how_to_contribute.md).
@@ -49,22 +49,22 @@ Full contributing [guidelines are covered here](.github/how_to_contribute.md).
 | Name | Version |
 |------|---------|
 | Terraform | >= 1.3.0 |
-| Huaweicloud Provider | >= 1.40.0 |
+| Sbercloud Provider | >= 1.40.0 |
 
 ## Resources
 
 | Name | Type |
 |------|------|
-| huaweicloud_vpc.this | resource |
-| huaweicloud_vpc_subnet.this | resource |
-| huaweicloud_networking_secgroup.this | resource |
-| huaweicloud_networking_secgroup_rule.in_v4_self_group | resource |
-| huaweicloud_networking_secgroup_rule.this | resource |
-| huaweicloud_vpc_address_group.this | resource |
-| huaweicloud_networking_secgroup_rule.remote_address_group | resource |
-| data.huaweicloud_vpcs.this | data-source |
-| data.huaweicloud_vpc_subnets.this | data-source |
-| data.huaweicloud_networking_secgroups.this | data-source |
+| sbercloud_vpc.this | resource |
+| sbercloud_vpc_subnet.this | resource |
+| sbercloud_networking_secgroup.this | resource |
+| sbercloud_networking_secgroup_rule.in_v4_self_group | resource |
+| sbercloud_networking_secgroup_rule.this | resource |
+| sbercloud_vpc_address_group.this | resource |
+| sbercloud_networking_secgroup_rule.remote_address_group | resource |
+| data.sbercloud_vpcs.this | data-source |
+| data.sbercloud_vpc_subnets.this | data-source |
+| data.sbercloud_networking_secgroups.this | data-source |
 
 ## Inputs
 
