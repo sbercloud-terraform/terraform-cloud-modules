@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     sbercloud = {
-      source  = "mycloud.com/myorg/sbercloud"
+      source  = "sbercloud-terraform/sbercloud"
     }
   }
 }
