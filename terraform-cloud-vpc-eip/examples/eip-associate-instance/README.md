@@ -29,7 +29,9 @@ $ terraform apply
 |------|--------|---------|
 | vpc_network | [terraform-provider-sbercloud](https://github.com/terraform-huaweicloud-modules/terraform-huaweicloud-vpc) | v1.2.0 |
 | ecs_instance | [sbercloud_compute_instance](https://github.com/sbercloud-terraform/terraform-provider-sbercloud/blob/master/docs/resources/compute_instance.md) | N/A |
-| eip_publicip | [../../terraform-cloud-modules/examples/eip-publicip](../../terraform-cloud-modules/examples/eip-publicip/README.md) | N/A |
+| eip_publicip | [../../terraform-cloud-vpc-eip/examples
+/eip-ipv4-publicip](../../terraform-cloud-vpc-eip/examples
+/eip-ipv4-publicip/README.md) | N/A |
 <!-- markdownlint-enable MD013 -->
 
 ## Resources
