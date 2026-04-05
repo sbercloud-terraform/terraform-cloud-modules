@@ -1,8 +1,8 @@
-# Sbercloud VPC EIP Terraform module
+# Cloud.ru VPC EIP Terraform module
 
 ## How to Configure Terraform for Sbercloud
 
-- [Sbercloud Quickstart](https://cloud.ru/ru/docs/terraform/ug/topics/quickstart.html)
+- [Cloud.ru Quickstart](https://cloud.ru/ru/docs/terraform/ug/topics/quickstart.html)
 - Add environment variables for terraform authentication in Sbercloud
 
 ```
