@@ -1,4 +1,4 @@
-# The Terraform module of HUAWEI Cloud IMS service
+# The Terraform module of Cloud.ru IMS service
 
 What capabilities does the current module provide:
 
