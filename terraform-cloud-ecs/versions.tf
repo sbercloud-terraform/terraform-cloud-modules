@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     sbercloud = {
-      source  = "sbercloud-terrafoem/sbercloud"
+      source  = "sbercloud-terraform/sbercloud"
     }
   }
 }
